@@ -1,6 +1,6 @@
 # shortly_challange
 
-Shortly-Challange application.
+Shortly-Challange Application.
 
 ## Genel Bilgilendirme
  - Uygulama Google Flutter Framework'ü kullanılarak geliştirilmiştir.
@@ -14,14 +14,14 @@ Shortly-Challange application.
 ## Kullanılan Kütüphaneler
 
 - [Flutter SVG](https://pub.dev/packages/flutter_svg)
-- [GetX(State Management)](https://pub.dev/packages/get)
+- [GetX(State Management, Alternatif: Bloc)](https://pub.dev/packages/get)
 - [Get It(Dependency Injection)](https://pub.dev/packages/get_it)
 - [Logger](https://pub.dev/packages/logger)
 - [Flutter EasyLoading](https://pub.dev/packages/flutter_easyloading)
 - [Url Launcher](https://pub.dev/packages/url_launcher)
 - [Dio(Network Transactions)](https://pub.dev/packages/dio)
 
-## Url Kısaltmak İçin Entegrasyon
+## Url Shortener Entegrasyon
 
 https://shrtco.de/docs/
 
@@ -35,7 +35,7 @@ https://itnext.io/atomic-design-with-flutter-11f6fcb62017
 
 ## Kullanılan Mimari
 
-- Katmanlı mimari alt yapısı kullanılarak her katmanın kendi işini yapması amacıyla, kod okunabilirliği açısından ve sonra ki süreçte yapılan uygulamanın değişime direnç göstermemesi amacıyla MVC Design Pattern kullanımıştır(Alternatif; BLoC Pattern, MVVM)
+- Katmanlı mimari alt yapısı kullanılarak her katmanın kendi işini yapması amacıyla, kod okunabilirliği açısından ve sonra ki süreçte yapılan uygulamanın değişime direnç göstermemesi amacıyla MVC Design Pattern kullanımıştır(Alternatif; Repository Pattern, MVVM)
 - Katmanlar; 
   - Models(Model class'ların tutulduğu katmandır.Kullanılan dataların referans modelleri saklanır.)
   - Views(UI elemanlarının tutulduğu katmandır ve sadece UI ile ilgili elemanlar tutulmalıdır)
